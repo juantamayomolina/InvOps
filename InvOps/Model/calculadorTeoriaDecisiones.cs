@@ -31,12 +31,13 @@ namespace InvOps.Model
 		{
 			if (esRentabilidad)
 			{
-				valores.Sort();				
-			}
+				valores.Sort();
+                valores.Reverse();
+            }
 			else
 			{
 				valores.Sort();
-				valores.Reverse();
+				
 			}
 
 			return valores[0];
@@ -92,6 +93,38 @@ namespace InvOps.Model
                 valores.Sort();
             }
 
+
+            return valores[0];
+        }
+
+        public static double calcularValorEsperado(List<double> valores, bool esRentabilidad)
+        {
+            if (esRentabilidad)
+            {
+                valores.Sort();
+                valores.Reverse();
+            }
+            else
+            {
+                valores.Sort();
+
+            }
+
+            return valores[0];
+        }
+
+        public static double calcularMaximaProbabilidad(List<double> valores, bool esRentabilidad)
+        {
+            if (esRentabilidad)
+            {
+                valores.Sort();
+                valores.Reverse();
+            }
+            else
+            {
+                valores.Sort();
+
+            }
 
             return valores[0];
         }

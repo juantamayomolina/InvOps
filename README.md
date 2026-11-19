@@ -1,6 +1,6 @@
 # 📝 InvOps  
 
-**InvOps** es una aplicación de escritorio con interfaz gráfica (Windows Forms), diseñada para la **generación de informes** a partir de una implementación básica de la **teoría de decisiones**, modelando la relación **decisiones ↔ alternativas**.  
+**InvOps** es una aplicación de escritorio con interfaz gráfica (Windows Forms), diseñada para la **generación de informes** a partir de una implementación básica de la **teoría de decisiones**, modelando la relación **decisiones ↔ alternativas / estados de la naturaleza**.  
 
 Actualmente se encuentra en **proceso de construcción**, con módulos en desarrollo, entre ellos:  
 - 🔍 **Análisis de riesgos**  
@@ -27,7 +27,7 @@ Actualmente se encuentra en **proceso de construcción**, con módulos en desarr
 ## 🛠️ Instalación y ejecución  
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/tuusuario/invops.git
+   git clone https://github.com/jucatamo/InvOps/invops.git
    cd invops
    ```  
 
@@ -39,8 +39,10 @@ Actualmente se encuentra en **proceso de construcción**, con módulos en desarr
 
 ## 📖 Uso  
 - La interacción con la aplicación es completamente **gráfica** mediante su interfaz en Windows Forms.  
-- Define tus **decisiones y alternativas** directamente en la interfaz.  
-- Ejecuta el análisis preliminar y genera reportes básicos en formato PDF.  
+- Define tus **decisiones y alternativas** directamente en la interfaz.
+- Configura las variables adicionales como el alfa de Hurwicz y las probabilidades para cada estado de la naturaleza 
+- Ejecuta o calcula los valores para su análisis
+- Genera reportes básicos en formato PDF.
 
 ---
 
